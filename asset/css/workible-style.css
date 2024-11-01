@@ -1,0 +1,30 @@
+.pagination .pagination-prev a,.pagination .pagination-next a{
+	width: auto;
+}
+.wkJobListJobs .wkPoweredBy span{
+	color: #4EC0DA;
+    font-weight: bold;
+}
+.wkJobListJobs .pull-right{
+	display: block;
+	position: relative;
+}
+.wkJobListJobs .list-group .list-group-item{
+	display: inline-block;
+	width: 100%;
+}
+@media (max-width: 979px){
+	.wkJobListJobs .pull-right{
+		position: relative;
+		right: 0px;
+	}
+	.wkJobListJobs li{
+		padding-right: 15px;
+	}
+}
+@media (max-width: 480px){
+	.btn.btn-link{
+		margin: 15px 0;
+    	padding: 0;
+	}
+}

@@ -1,0 +1,9 @@
+.wk-radio-inputs{
+	display: inline-table;
+}
+.wk-radio-inputs label{
+	margin-right: 15px;
+}
+.css-editor{
+	overflow: scroll;
+}
